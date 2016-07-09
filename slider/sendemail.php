@@ -30,10 +30,10 @@ if(trim($name) == '') {
 } if(get_magic_quotes_gpc()) { $comments = stripslashes($comments); }
 
 //ENTER YOUR EMAIL ADDRESS HERE
-$address = 'email@example.com';
+$address = 'hayaustin@gmail.com';
 
-$e_subject = 'You\'ve been contacted by ' . $name . '.';
-$e_body = "You have been contacted by $name from $website from your contact form, their additional message is as follows." . "\r\n" . "\r\n";
+$e_subject = 'Wedding RSVP from' . $name . '.';
+$e_body = "RSVP included." . "\r\n" . "\r\n";
 $e_content = "\"$comments\"" . "\r\n" . "\r\n";
 $e_reply = "You can contact $name via email, $email";
 
@@ -44,7 +44,5 @@ $headers .= "Reply-To: $email" . "\r\n";
 $headers .= "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type: text/plain; charset=utf-8" . "\r\n";
 $headers .= "Content-Transfer-Encoding: quoted-printable" . "\r\n";
-
-
 
 if(mail($address, $e_subject, $msg, $headers)) { echo "<fieldset><div id='success_page'><h4 class='remove-bottom'>Email Sent Successfully.</h4><p>Thank you <strong>$name</strong>, your message has been submitted to us.</p></div></fieldset>"; }

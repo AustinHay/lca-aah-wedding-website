@@ -270,8 +270,8 @@ function updateState() {
 
 var feed = new Instafeed({
     get: 'tagged',
-    tagName: 'wedding',
-    clientId: '36c69579e891432f9cab8bb8752778e8',
+    tagName: 'balouthegreyhound',
+    clientId: ' 8f5cff35926c425ba09a5adff8e091b1',
     template: '<img src="{{image}}" />',
     resolution: 'low_resolution',
     limit: 12

@@ -630,12 +630,12 @@ section {
 }
 
 .dark-wrapper.opaqued, .dark-opaqued {
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0,0,0, 0.3);
 }
 
 
 .light-opaqued {
-    background-color: rgba(193, 14, 31, 0.8);
+    background-color: rgba(33,197,210, 0.2);
 }
 
 
