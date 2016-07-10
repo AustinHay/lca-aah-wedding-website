@@ -276,6 +276,9 @@ var feed = new Instafeed({
     clientId: 'd740ecf6f18f46899c7c5be0e4729be3',
     template: '<a href="{{link}}"><img src="{{image}}"/></a>',
     resolution: 'standard_resolution',
-    limit: 12
+    limit: 12,
+    // filter: function(image) {
+    //         return image.tags.indexOf('balouthegreyhound') >= 0;
+    //     }
 });
 feed.run();
