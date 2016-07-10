@@ -269,11 +269,13 @@ function updateState() {
 }
 
 var feed = new Instafeed({
-    get: 'tagged',
-    tagName: 'balouthegreyhound',
-    clientId: ' 8f5cff35926c425ba09a5adff8e091b1',
-    template: '<img src="{{image}}" />',
-    resolution: 'low_resolution',
+    get: 'user',
+    userId: 1505275294,
+    sortBy: 'random',
+    accessToken: '1505275294.d740ecf.53f7b4fe4e7848fda8b8d43c92174f1d',
+    clientId: 'd740ecf6f18f46899c7c5be0e4729be3',
+    template: '<a href="{{link}}"><img src="{{image}}"/></a>',
+    resolution: 'standard_resolution',
     limit: 12
 });
 feed.run();
