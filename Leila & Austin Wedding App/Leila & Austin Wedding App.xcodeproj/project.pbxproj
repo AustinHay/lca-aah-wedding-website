@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0087B8891D3206D2006BA6FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087B8881D3206D2006BA6FE /* main.m */; };
+		0087B88C1D3206D2006BA6FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087B88B1D3206D2006BA6FE /* AppDelegate.m */; };
+		0087B88F1D3206D2006BA6FE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087B88E1D3206D2006BA6FE /* FirstViewController.m */; };
+		0087B8921D3206D2006BA6FE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087B8911D3206D2006BA6FE /* SecondViewController.m */; };
+		0087B8951D3206D2006BA6FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0087B8931D3206D2006BA6FE /* Main.storyboard */; };
+		0087B8971D3206D2006BA6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0087B8961D3206D2006BA6FE /* Assets.xcassets */; };
+		0087B89A1D3206D2006BA6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0087B8981D3206D2006BA6FE /* LaunchScreen.storyboard */; };
+		0087B8A51D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087B8A41D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m */; };
+		0087B8B01D321213006BA6FE /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0087B8AF1D321213006BA6FE /* SafariServices.framework */; };
+		0087B8B21D32178D006BA6FE /* IMG_4414.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0087B8B11D32178D006BA6FE /* IMG_4414.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0087B8A11D3206D2006BA6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0087B87C1D3206D2006BA6FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0087B8831D3206D2006BA6FE;
+			remoteInfo = "Leila & Austin Wedding App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0087B8841D3206D2006BA6FE /* Leila & Austin Wedding App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leila & Austin Wedding App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0087B8881D3206D2006BA6FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0087B88A1D3206D2006BA6FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0087B88B1D3206D2006BA6FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0087B88D1D3206D2006BA6FE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0087B88E1D3206D2006BA6FE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0087B8901D3206D2006BA6FE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0087B8911D3206D2006BA6FE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0087B8941D3206D2006BA6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0087B8961D3206D2006BA6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0087B8991D3206D2006BA6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0087B89B1D3206D2006BA6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0087B8A01D3206D2006BA6FE /* Leila & Austin Wedding AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leila & Austin Wedding AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0087B8A41D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Leila___Austin_Wedding_AppTests.m"; sourceTree = "<group>"; };
+		0087B8A61D3206D2006BA6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0087B8AF1D321213006BA6FE /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		0087B8B11D32178D006BA6FE /* IMG_4414.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4414.JPG; path = ../../../../Desktop/IMG_4414.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0087B8811D3206D2006BA6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B8B01D321213006BA6FE /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B89D1D3206D2006BA6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0087B87B1D3206D2006BA6FE = {
+			isa = PBXGroup;
+			children = (
+				0087B8AF1D321213006BA6FE /* SafariServices.framework */,
+				0087B8861D3206D2006BA6FE /* Leila & Austin Wedding App */,
+				0087B8A31D3206D2006BA6FE /* Leila & Austin Wedding AppTests */,
+				0087B8851D3206D2006BA6FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0087B8851D3206D2006BA6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0087B8841D3206D2006BA6FE /* Leila & Austin Wedding App.app */,
+				0087B8A01D3206D2006BA6FE /* Leila & Austin Wedding AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0087B8861D3206D2006BA6FE /* Leila & Austin Wedding App */ = {
+			isa = PBXGroup;
+			children = (
+				0087B8B31D3217A0006BA6FE /* Assets */,
+				0087B88A1D3206D2006BA6FE /* AppDelegate.h */,
+				0087B88B1D3206D2006BA6FE /* AppDelegate.m */,
+				0087B88D1D3206D2006BA6FE /* FirstViewController.h */,
+				0087B88E1D3206D2006BA6FE /* FirstViewController.m */,
+				0087B8901D3206D2006BA6FE /* SecondViewController.h */,
+				0087B8911D3206D2006BA6FE /* SecondViewController.m */,
+				0087B8931D3206D2006BA6FE /* Main.storyboard */,
+				0087B8961D3206D2006BA6FE /* Assets.xcassets */,
+				0087B8981D3206D2006BA6FE /* LaunchScreen.storyboard */,
+				0087B89B1D3206D2006BA6FE /* Info.plist */,
+				0087B8871D3206D2006BA6FE /* Supporting Files */,
+			);
+			path = "Leila & Austin Wedding App";
+			sourceTree = "<group>";
+		};
+		0087B8871D3206D2006BA6FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0087B8881D3206D2006BA6FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0087B8A31D3206D2006BA6FE /* Leila & Austin Wedding AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0087B8A41D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m */,
+				0087B8A61D3206D2006BA6FE /* Info.plist */,
+			);
+			path = "Leila & Austin Wedding AppTests";
+			sourceTree = "<group>";
+		};
+		0087B8B31D3217A0006BA6FE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0087B8B41D3217B5006BA6FE /* imgs */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		0087B8B41D3217B5006BA6FE /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				0087B8B11D32178D006BA6FE /* IMG_4414.JPG */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0087B8831D3206D2006BA6FE /* Leila & Austin Wedding App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0087B8A91D3206D2006BA6FE /* Build configuration list for PBXNativeTarget "Leila & Austin Wedding App" */;
+			buildPhases = (
+				0087B8801D3206D2006BA6FE /* Sources */,
+				0087B8811D3206D2006BA6FE /* Frameworks */,
+				0087B8821D3206D2006BA6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leila & Austin Wedding App";
+			productName = "Leila & Austin Wedding App";
+			productReference = 0087B8841D3206D2006BA6FE /* Leila & Austin Wedding App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0087B89F1D3206D2006BA6FE /* Leila & Austin Wedding AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0087B8AC1D3206D2006BA6FE /* Build configuration list for PBXNativeTarget "Leila & Austin Wedding AppTests" */;
+			buildPhases = (
+				0087B89C1D3206D2006BA6FE /* Sources */,
+				0087B89D1D3206D2006BA6FE /* Frameworks */,
+				0087B89E1D3206D2006BA6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0087B8A21D3206D2006BA6FE /* PBXTargetDependency */,
+			);
+			name = "Leila & Austin Wedding AppTests";
+			productName = "Leila & Austin Wedding AppTests";
+			productReference = 0087B8A01D3206D2006BA6FE /* Leila & Austin Wedding AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0087B87C1D3206D2006BA6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Austin Hay";
+				TargetAttributes = {
+					0087B8831D3206D2006BA6FE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D3PSH3P3W7;
+					};
+					0087B89F1D3206D2006BA6FE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0087B8831D3206D2006BA6FE;
+					};
+				};
+			};
+			buildConfigurationList = 0087B87F1D3206D2006BA6FE /* Build configuration list for PBXProject "Leila & Austin Wedding App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0087B87B1D3206D2006BA6FE;
+			productRefGroup = 0087B8851D3206D2006BA6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0087B8831D3206D2006BA6FE /* Leila & Austin Wedding App */,
+				0087B89F1D3206D2006BA6FE /* Leila & Austin Wedding AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0087B8821D3206D2006BA6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B8B21D32178D006BA6FE /* IMG_4414.JPG in Resources */,
+				0087B89A1D3206D2006BA6FE /* LaunchScreen.storyboard in Resources */,
+				0087B8971D3206D2006BA6FE /* Assets.xcassets in Resources */,
+				0087B8951D3206D2006BA6FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B89E1D3206D2006BA6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0087B8801D3206D2006BA6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B8921D3206D2006BA6FE /* SecondViewController.m in Sources */,
+				0087B88C1D3206D2006BA6FE /* AppDelegate.m in Sources */,
+				0087B88F1D3206D2006BA6FE /* FirstViewController.m in Sources */,
+				0087B8891D3206D2006BA6FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0087B89C1D3206D2006BA6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087B8A51D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0087B8A21D3206D2006BA6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0087B8831D3206D2006BA6FE /* Leila & Austin Wedding App */;
+			targetProxy = 0087B8A11D3206D2006BA6FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0087B8931D3206D2006BA6FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0087B8941D3206D2006BA6FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0087B8981D3206D2006BA6FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0087B8991D3206D2006BA6FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0087B8A71D3206D2006BA6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0087B8A81D3206D2006BA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0087B8AA1D3206D2006BA6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Leila & Austin Wedding App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lca-aah-wedding.Leila---Austin-Wedding-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0087B8AB1D3206D2006BA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Leila & Austin Wedding App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lca-aah-wedding.Leila---Austin-Wedding-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0087B8AD1D3206D2006BA6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Leila & Austin Wedding AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lca-aah-wedding.Leila---Austin-Wedding-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leila & Austin Wedding App.app/Leila & Austin Wedding App";
+			};
+			name = Debug;
+		};
+		0087B8AE1D3206D2006BA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Leila & Austin Wedding AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lca-aah-wedding.Leila---Austin-Wedding-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leila & Austin Wedding App.app/Leila & Austin Wedding App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0087B87F1D3206D2006BA6FE /* Build configuration list for PBXProject "Leila & Austin Wedding App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087B8A71D3206D2006BA6FE /* Debug */,
+				0087B8A81D3206D2006BA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0087B8A91D3206D2006BA6FE /* Build configuration list for PBXNativeTarget "Leila & Austin Wedding App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087B8AA1D3206D2006BA6FE /* Debug */,
+				0087B8AB1D3206D2006BA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0087B8AC1D3206D2006BA6FE /* Build configuration list for PBXNativeTarget "Leila & Austin Wedding AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087B8AD1D3206D2006BA6FE /* Debug */,
+				0087B8AE1D3206D2006BA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0087B87C1D3206D2006BA6FE /* Project object */;
+}
