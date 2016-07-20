@@ -18,6 +18,19 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.leilawillyoumarry.leilaandaustinweddingapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>leilawillyoumarryme://</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -53,5 +66,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>branch_key</key>
+	<string>key_live_pjb4Wzv0qO7GDCw6TfFtipmpuqfG3luZ</string>
 </dict>
 </plist>

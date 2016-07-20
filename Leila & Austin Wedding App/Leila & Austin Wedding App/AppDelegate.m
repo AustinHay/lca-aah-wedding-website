@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Branch.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +15,36 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    Branch *branch = [Branch getInstance];
+    [branch initSessionWithLaunchOptions:launchOptions andRegisterDeepLinkHandler:^(NSDictionary *params, NSError *error) {
+        if (!error && params) {
+            // params are the deep linked params associated with the link that the user clicked -> was re-directed to this app
+            // params will be empty if no data found
+            // ... insert custom logic here ...
+            NSLog(@"params: %@", params.description);
+        }
+    }];
+    
     // Override point for customization after application launch.
     return YES;
+}
+
+// Respond to URI scheme links
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    // pass the url to the handle deep link call
+    [[Branch getInstance] handleDeepLink:url];
+    
+    // do other deep link routing for the Facebook SDK, Pinterest SDK, etc
+    return YES;
+}
+
+// Respond to Universal Links
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler {
+    BOOL handledByBranch = [[Branch getInstance] continueUserActivity:userActivity];
+    
+    return handledByBranch;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

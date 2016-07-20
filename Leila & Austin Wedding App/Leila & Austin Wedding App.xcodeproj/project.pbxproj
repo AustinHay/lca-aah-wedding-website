@@ -17,6 +17,8 @@
 		0087B8A51D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087B8A41D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m */; };
 		0087B8B01D321213006BA6FE /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0087B8AF1D321213006BA6FE /* SafariServices.framework */; };
 		0087B8B21D32178D006BA6FE /* IMG_4414.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0087B8B11D32178D006BA6FE /* IMG_4414.JPG */; };
+		0087B8B61D321CE8006BA6FE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0087B8B51D321CE8006BA6FE /* Icon.png */; };
+		FE297E1904346BEEEFE3A45E /* libPods-Leila & Austin Wedding App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CA5E97B74A1FF5F3EA3637 /* libPods-Leila & Austin Wedding App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		0087B8A61D3206D2006BA6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0087B8AF1D321213006BA6FE /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		0087B8B11D32178D006BA6FE /* IMG_4414.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4414.JPG; path = ../../../../Desktop/IMG_4414.JPG; sourceTree = "<group>"; };
+		0087B8B51D321CE8006BA6FE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../Desktop/Icon.png; sourceTree = "<group>"; };
+		6D63E1D18A10483D64271060 /* Pods-Leila & Austin Wedding App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leila & Austin Wedding App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leila & Austin Wedding App/Pods-Leila & Austin Wedding App.release.xcconfig"; sourceTree = "<group>"; };
+		9CC45773137018769B533645 /* Pods-Leila & Austin Wedding App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leila & Austin Wedding App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leila & Austin Wedding App/Pods-Leila & Austin Wedding App.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CA5E97B74A1FF5F3EA3637 /* libPods-Leila & Austin Wedding App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Leila & Austin Wedding App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0087B8B01D321213006BA6FE /* SafariServices.framework in Frameworks */,
+				FE297E1904346BEEEFE3A45E /* libPods-Leila & Austin Wedding App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,8 @@
 				0087B8861D3206D2006BA6FE /* Leila & Austin Wedding App */,
 				0087B8A31D3206D2006BA6FE /* Leila & Austin Wedding AppTests */,
 				0087B8851D3206D2006BA6FE /* Products */,
+				B9829FF2C93FEBD1F0C92B35 /* Pods */,
+				C6CFDB83F1534435995A5242 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +143,27 @@
 		0087B8B41D3217B5006BA6FE /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				0087B8B51D321CE8006BA6FE /* Icon.png */,
 				0087B8B11D32178D006BA6FE /* IMG_4414.JPG */,
 			);
 			name = imgs;
+			sourceTree = "<group>";
+		};
+		B9829FF2C93FEBD1F0C92B35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CC45773137018769B533645 /* Pods-Leila & Austin Wedding App.debug.xcconfig */,
+				6D63E1D18A10483D64271060 /* Pods-Leila & Austin Wedding App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6CFDB83F1534435995A5242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CA5E97B74A1FF5F3EA3637 /* libPods-Leila & Austin Wedding App.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0087B8A91D3206D2006BA6FE /* Build configuration list for PBXNativeTarget "Leila & Austin Wedding App" */;
 			buildPhases = (
+				14638EEC12B88AB52EC8E9B6 /* [CP] Check Pods Manifest.lock */,
 				0087B8801D3206D2006BA6FE /* Sources */,
 				0087B8811D3206D2006BA6FE /* Frameworks */,
 				0087B8821D3206D2006BA6FE /* Resources */,
+				84F37A6DBEC4FF0DE50454B3 /* [CP] Embed Pods Frameworks */,
+				1FC62A5B3FEB847D295B5FC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +252,7 @@
 			files = (
 				0087B8B21D32178D006BA6FE /* IMG_4414.JPG in Resources */,
 				0087B89A1D3206D2006BA6FE /* LaunchScreen.storyboard in Resources */,
+				0087B8B61D321CE8006BA6FE /* Icon.png in Resources */,
 				0087B8971D3206D2006BA6FE /* Assets.xcassets in Resources */,
 				0087B8951D3206D2006BA6FE /* Main.storyboard in Resources */,
 			);
@@ -235,6 +266,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14638EEC12B88AB52EC8E9B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1FC62A5B3FEB847D295B5FC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leila & Austin Wedding App/Pods-Leila & Austin Wedding App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F37A6DBEC4FF0DE50454B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leila & Austin Wedding App/Pods-Leila & Austin Wedding App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0087B8801D3206D2006BA6FE /* Sources */ = {
@@ -370,24 +449,26 @@
 		};
 		0087B8AA1D3206D2006BA6FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC45773137018769B533645 /* Pods-Leila & Austin Wedding App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "Leila & Austin Wedding App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lca-aah-wedding.Leila---Austin-Wedding-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leilawillyoumarry.leilaandaustinweddingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		0087B8AB1D3206D2006BA6FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D63E1D18A10483D64271060 /* Pods-Leila & Austin Wedding App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "Leila & Austin Wedding App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lca-aah-wedding.Leila---Austin-Wedding-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leilawillyoumarry.leilaandaustinweddingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -435,6 +516,7 @@
 				0087B8AB1D3206D2006BA6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0087B8AC1D3206D2006BA6FE /* Build configuration list for PBXNativeTarget "Leila & Austin Wedding AppTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +525,7 @@
 				0087B8AE1D3206D2006BA6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

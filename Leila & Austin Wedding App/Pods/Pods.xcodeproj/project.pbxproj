@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078735EBD2A00763E56DEC76F4AD3E36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E87422AF9641727FB997486DD2B59E /* MobileCoreServices.framework */; };
+		0928A61F3EC9190F8CB0F9BE81BEFDE6 /* BNCStrongMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF73C5AC38DBAD6356FA09365CEC2AD /* BNCStrongMatchHelper.m */; };
+		097D58D39EEED0DBE15DCB0AFAF54C11 /* BNCPreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B267DA9BB23B4BC9EAF8C8E07A28D81 /* BNCPreferenceHelper.m */; };
+		0E8D55619C78CF8AA2F0F9ED3ED10539 /* Fabric.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF6F0819CA5A31CC0E521114299FD3B /* Fabric.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		23A21F5A6BB843B5EA073CCBD20EEB47 /* BNCConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 928FEDB0F3CF74983A32421E0DBA74AF /* BNCConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25184A02BFFB9CC8CF562EAF08B56C35 /* BranchLoadRewardsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A435F3A8940D8610F54A093B9514569 /* BranchLoadRewardsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD72B32FF69507CC19FF996552C2DBF /* BranchLinkProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D3FF675F6E089935B4D3312865CF90 /* BranchLinkProperties.m */; };
+		3069D9161C816692D5CF0381F3605EB4 /* BranchConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D96575C20ADE26E40A43EF0115C9B630 /* BranchConstants.m */; };
+		30C5AD4686D98D430491AAC4C2A7A365 /* BranchApplyPromoCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 89197DCD01141B4EA5A29302CFF2A35E /* BranchApplyPromoCodeRequest.m */; };
+		30C69E37F3B3F7865EE74EF72D11A45B /* BranchUserCompletedActionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD5A1FCEE945459BCC831DEBD4EAEAB /* BranchUserCompletedActionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381C03018C6F77DD2215FDD22A132584 /* BranchActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A61743894010DE2F98900956A4D42033 /* BranchActivityItemProvider.m */; };
+		3964BE57146DE6CB37CA4C3DF1228F39 /* BNCLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E8AB7774B0AB650840FB85754A0B8B /* BNCLinkData.m */; };
+		3C0162D03FE98CD87B5858DA55E846A5 /* BNCServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEF5A5E9D450F27CBEE1D2497B5C3C3 /* BNCServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C5C5067C2DA29E361EAB7CE5753B94D /* BranchCSSearchableItemAttributeSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BE96066613B4D05879E877DDCB2DF9 /* BranchCSSearchableItemAttributeSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F94D5D25D6445EADE3E490FEDA6CCE8 /* BranchOpenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC12F4FC00563CCADF92DF64F1FCAB9 /* BranchOpenRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA2F7872DA6976FE15DA18831ACE821 /* Branch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3824E1652B7B26C41457C8F71F503 /* Branch-dummy.m */; };
+		4010E18C9A5836916A5031E7672AF1DA /* BranchConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FD6DC506112F7D0420AD0B71186A0D /* BranchConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41722E13D8BFDDEAB6E8C8AD9877DC6B /* BranchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F7AA98958E157EDAD4027CC83BA48B /* BranchView.m */; };
+		460F91374C54240CF97FEC320DFFCA86 /* BranchGetPromoCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EA9F8AA371F532B62621223B49B879 /* BranchGetPromoCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4914F5830BA1E6BD27C716F9C79B5CED /* BranchUserCompletedActionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD65A257F1F1CD45D26765219F3500A /* BranchUserCompletedActionRequest.m */; };
+		4FF6518325AEC006AB270CD1ECA039CE /* BNCServerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D6D7808C809A1B205C14F66B5CB983 /* BNCServerInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50CB68812BFD17D06B933ED9C6899810 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEADD921D50329295300F41E494B760 /* CoreTelephony.framework */; };
+		52FBE65001259F9B759C25BFB941CC42 /* BranchRedeemRewardsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB48545F8C43BC5762C75551CC062C /* BranchRedeemRewardsRequest.m */; };
+		548AFA40C7A8C12156A132B5B4B51F3C /* BNCLinkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F67814E42236BAF609380B71BFD01198 /* BNCLinkCache.m */; };
+		5E13CDCEB4D403A21A49D1656D9D3450 /* BNCServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E13614F013D8E7CF5ADB2B8A34E01 /* BNCServerResponse.m */; };
+		5EC8086798E0011C38AFBA0ABC310A76 /* BranchDeepLinkingController.h in Headers */ = {isa = PBXBuildFile; fileRef = 033CFA2D90FBE59B11C698A12C4F6EED /* BranchDeepLinkingController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6038D05144C80D74393E07D3FD97343B /* BNCServerRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AD6C149445FBB9E64590322134EEB /* BNCServerRequestQueue.m */; };
+		60F64E05C1CB139468112319E4E76230 /* BranchCreditHistoryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBD66D1FC105DF37FF4C5364A5BD83A /* BranchCreditHistoryRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6126041320E62E260A1B68A52893D187 /* BranchOpenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1705002E56E88E1E91014F72F84832B0 /* BranchOpenRequest.m */; };
+		628F6B3CFD633E9B26F7E91AA7C7A83F /* BranchValidatePromoCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D2E6532CADDE213620B16A3BF89660 /* BranchValidatePromoCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6319FED627C861840724545AF27192C8 /* BranchRedeemRewardsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB3870C1760BC84F22EF775FC78DB19 /* BranchRedeemRewardsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663B5B88917701FAB90AEB869E2F2660 /* BranchShortUrlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD545667BA564C10D78A42A8FBC5B21 /* BranchShortUrlRequest.m */; };
+		679CB62D294646D07EF9E0E7BE72D7A6 /* BranchCloseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B6D223268901BACE88F5CCF85C7AAE /* BranchCloseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68131459124456EF50521A0410DBE2F5 /* BNCStrongMatchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F76B546D0721726B0FDE5C77EB3EA4 /* BNCStrongMatchHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF3B4B89102377ECEE2E9A84014B48C /* BranchLogoutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 89070488842F74907816D4F4648CF843 /* BranchLogoutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6A6E048DC33CA48185615751873C92 /* BranchSpotlightUrlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1D29F561B544784E6FFD1A4EBC33C /* BranchSpotlightUrlRequest.m */; };
+		6BCFCFA564F37DC87F2868F7D40E171F /* BNCContentDiscoveryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1B434DCC269AAF46BD57144D0A2BFD /* BNCContentDiscoveryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7571B06EEDB0F9A9D9364020B65E93CF /* BNCLinkData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4D60CDF3626C972BC7699D60F0BC42 /* BNCLinkData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758069FFAB05A50889549A5D6E8443AE /* BNCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD9C1728EC43F77C6F477D71C33F35 /* BNCError.m */; };
+		7E6B856E3466D540E71DA9DA94E33798 /* BNCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A6DD600B88BDFC7693FA6B7B340EB /* BNCDeviceInfo.m */; };
+		7FFA4C7DA8C4C34DAD5A7DE1BBE97829 /* BranchShortUrlSyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB81B9AA426963928006B1CB396D245E /* BranchShortUrlSyncRequest.m */; };
+		821ECDCFDFB9E1DD5344B42ACDD79893 /* BranchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D36A8F1A44AFBE54585A620FFA11792 /* BranchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		858FC5090E95FBDFD5838FFAA8F68E3A /* BNCLinkCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F75463470F729ADADF0C3829B06FC825 /* BNCLinkCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E9F906D9EB7A4FEDD0557D329677A8 /* BNCSystemObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F04C26DA1F266B3A00EF22CDF398E93 /* BNCSystemObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87FD719265822737445C1DEB53218CE3 /* BranchGetPromoCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63152C905C2331735FEA3124915CF2AD /* BranchGetPromoCodeRequest.m */; };
+		882C402807B542701DE40966C1DF1C79 /* BNCFabricAnswers.h in Headers */ = {isa = PBXBuildFile; fileRef = B78D01FF204085A17F1C7AF827E4605E /* BNCFabricAnswers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		897E0AAEDCCD50E36372EB1397A0DFC5 /* FABAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0BB050F8A51C58600CF01730A4F4F1 /* FABAttributes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C8F2FE7D2890C773DF75C70EFFE2BE3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC24D1FEA5170DCF5A20D2E4EEF316D9 /* AdSupport.framework */; };
+		8D9425115EE3BAA0903BB5F733ED1402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFBA25326E2BA776FB62750A6F6AD04 /* Foundation.framework */; };
+		8E5B77C1C191D5208FFBB8644C5375B2 /* BranchShortUrlSyncRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AE461FB80A930D07672DCDC2322712 /* BranchShortUrlSyncRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9065663232F97649D226B4516B58850D /* BranchCreditHistoryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D906D6E805EA9475F1BB4F270B739C3 /* BranchCreditHistoryRequest.m */; };
+		90BBDF8DB9857246C5FCBD4E2EF663CD /* BNCFabricAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = E71607A83FD8A0ECB6088A2563253915 /* BNCFabricAnswers.m */; };
+		92B134B37FF6B50D43F80C2CDDE1EFDC /* BranchValidatePromoCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 45661AFCFBC1FED3A39B9D435E0F5445 /* BranchValidatePromoCodeRequest.m */; };
+		92F273028A9679348077DA1BE1E99480 /* BNCCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 777C93C294950FB0DC5EDFD43CCDFB30 /* BNCCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9456D1679E00301265E0E777C2981F92 /* BNCDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FF22C124F382DDFEDE4B417DAC81FC /* BNCDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9768A9576C1B254AC0EE0D023D1293D6 /* ANSCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C056E497FAA2994FF7C89BDC4C8CE23 /* ANSCompatibility.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9877DACE4928DB8E90A5BBCA395E5E72 /* BNCSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BA779238CE7581EE8CC4801F7F9EEFC4 /* BNCSystemObserver.m */; };
+		99234C051D44DA213061606A5B6AB8EC /* BranchCSSearchableItemAttributeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF06FA8AEE3DD36580BD2E0A96994CD /* BranchCSSearchableItemAttributeSet.m */; };
+		A2F4613DA37EB41797C7A95D528DDD43 /* BranchRegisterViewRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0706B914D8B4F4FBF20FA80299A710E7 /* BranchRegisterViewRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35637CB967198DAFAF562AF826C8DFF /* Pods-Leila & Austin Wedding App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4D6B9FB0869B8E014EC9D2209500F /* Pods-Leila & Austin Wedding App-dummy.m */; };
+		A89F5EA35A1B9CBBCAEED1C9BAE84C14 /* BranchSetIdentityRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4412172F863AD666AF54185E48601D6C /* BranchSetIdentityRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF958E83AD7C171A6B4107C09035E448 /* BNCServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 37ECB6E508CBBA5070EBACBA237C4CF4 /* BNCServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0078F15AFB6C38B8EE18AD6EB309181 /* BNCEncodingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B65739A1E3BB72CD9D34F671AC780E1 /* BNCEncodingUtils.m */; };
+		B05BF4AFEAFDED31C5AA3A2513620DD5 /* BNCServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16840EBCD74B8C18F532577213CBDA4B /* BNCServerRequest.m */; };
+		B71372D3DDF02ED4919FE27CACAB6B5E /* BranchUniversalObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2A67693A4650CA38E9AD0A3AB7E629 /* BranchUniversalObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E7DC031F4DE7B794845BD11A8FCEF8 /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CB5F4F06A21F975940FDAB61A8E87 /* Branch.m */; };
+		BC2AE4A802CB1FD27DF8F625436A7DE7 /* BranchSpotlightUrlRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F385C45F2A93C9276051305A1AADDB /* BranchSpotlightUrlRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCAA1151F8857CF61A62CC54B2269E2E /* BranchLoadRewardsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55B6127950C0B90029B1DF8DE6ACBC /* BranchLoadRewardsRequest.m */; };
+		BFE5E62D272AFEAFCB95D9FBA5BEF88F /* BNCEncodingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A286172AEFA9CE56BC2D828C499C2427 /* BNCEncodingUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C13060D341DC2859BEE1AC9C6AE9B4DA /* BNCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 320CFCA3236FA413743020B2FC6A29CE /* BNCError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6050751A40E4C145C3BC314FB3567F4 /* PromoViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE74B6C280A34C0D85D320A16124112 /* PromoViewHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C5BE5A0841DDB5A4D1CCB0D1A73FEF /* BranchRegisterViewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7623C1778750D6FEF5C8913FB266DC4D /* BranchRegisterViewRequest.m */; };
+		C724B8C45E13A3D46CD87F0644B90A06 /* BranchActivityItemProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EF6EEACFFA2A744DCC635133F531D7 /* BranchActivityItemProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3920D3E3CACA850090902BFAA93B28 /* BNCServerRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B83EEF1C109A35F74925CE6C0937398 /* BNCServerRequestQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD4E03F54F8E5766C1035C27F9EADEE2 /* BranchInstallRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 88349D2E78AA590A8B2DA89C0F09454C /* BranchInstallRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF72792872A9AB9B6E31274E6033C979 /* BranchViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC9E892EC07011F4425E13E4D2D837F /* BranchViewHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06CA7A2BA2109ACDF67E890FA0F4BE2 /* BNCPreferenceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F49142211F04E3A71E0143F88B90AB /* BNCPreferenceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06D40801F33973B3B494C8B4657D22E /* FABKitProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8269BDC377F9164D1D90EA8D5DC191F9 /* FABKitProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D087F5C3F4BA0A2F9A980D4AFD1063C8 /* BranchViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCC36E733D3A2A9E4AAF11448F4BCC5 /* BranchViewHandler.m */; };
+		D6FFDF6846F1C78C2A5B2EE99B504BCA /* BranchApplyPromoCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5A8FA6579CB80412D66FB13D91D90 /* BranchApplyPromoCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7D0C1D9EA7EF22342F83521C9525F7B /* Answers.h in Headers */ = {isa = PBXBuildFile; fileRef = 452A722B50BC292E4DCF37F6E0E55F98 /* Answers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DAB121EDF8FCEF931759E4DED99671A0 /* BNCContentDiscoveryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F4159057A785F7AB8CB6CF59DB46BB /* BNCContentDiscoveryManager.m */; };
+		DBC2BC710ADCEFF65CF780BFC3835905 /* BranchInstallRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 762E1C26D90CF18BAB40BBB540E0D757 /* BranchInstallRequest.m */; };
+		DCB2D7C44BC2F23BB338D1D8D052D00B /* Branch.h in Headers */ = {isa = PBXBuildFile; fileRef = 957DF3746B605C9E55F6B16C7270EB0F /* Branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD800EC3282612656B4A176A0BA42FAF /* BNCServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A61612E13192E151FEB2B01A8E59B52 /* BNCServerInterface.m */; };
+		DE9B28219588C1FE79F2CE018E8CA5BE /* BranchCloseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72690DB05175351C8E0A3A726E7895 /* BranchCloseRequest.m */; };
+		E2BE7576E452A93DDEE151A3FF6E7AF2 /* BranchLogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F006C1AD6CBCA151444BF1390AAAF33 /* BranchLogoutRequest.m */; };
+		E491603C333B2B2BAEB5F94F079DA84B /* BranchLinkProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E53737F714B103878F944646F80C378B /* BranchLinkProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E68BD0877FE7287FEC8D091B75A03CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFBA25326E2BA776FB62750A6F6AD04 /* Foundation.framework */; };
+		EC071F8D293ABA314E336066231C7761 /* Fabric+FABKits.h in Headers */ = {isa = PBXBuildFile; fileRef = 157C13349B75F31D9491A725A9226068 /* Fabric+FABKits.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EE5AA6F23D0672CA76944C9E53B2A9B8 /* BranchShortUrlRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F8612465F650529F6D4057582A66FE /* BranchShortUrlRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09CBA9A760DF8DC84677CC6914E9A1E /* BranchLoadActionsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A57E4C686AB0A21CCB5B4888520819 /* BranchLoadActionsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3B3A53ACA013E0DD9D5F9E1C8E64579 /* BranchUniversalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 647B1BC601ADE612AF731B5035E3EA8C /* BranchUniversalObject.m */; };
+		F531515D9779F654EE6082ED05709666 /* BranchSetIdentityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD6BBADFC42AA5CF1870B754E4832B3 /* BranchSetIdentityRequest.m */; };
+		FA03F071FB0A4ECB8E7AAC4439DE16A9 /* BranchLoadActionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB69EB17CD99562FBBBC23912D7ECA /* BranchLoadActionsRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0435B3ABADB7127AD1186F09DDE43BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA48C061B1BD263B0FEFBF4549DC4C4;
+			remoteInfo = Branch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033CFA2D90FBE59B11C698A12C4F6EED /* BranchDeepLinkingController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchDeepLinkingController.h; path = "Branch-SDK/Branch-SDK/BranchDeepLinkingController.h"; sourceTree = "<group>"; };
+		06F8612465F650529F6D4057582A66FE /* BranchShortUrlRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchShortUrlRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchShortUrlRequest.h"; sourceTree = "<group>"; };
+		0706B914D8B4F4FBF20FA80299A710E7 /* BranchRegisterViewRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchRegisterViewRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchRegisterViewRequest.h"; sourceTree = "<group>"; };
+		071A6DD600B88BDFC7693FA6B7B340EB /* BNCDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCDeviceInfo.m; path = "Branch-SDK/Branch-SDK/BNCDeviceInfo.m"; sourceTree = "<group>"; };
+		07D2E6532CADDE213620B16A3BF89660 /* BranchValidatePromoCodeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchValidatePromoCodeRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchValidatePromoCodeRequest.h"; sourceTree = "<group>"; };
+		08E8AB7774B0AB650840FB85754A0B8B /* BNCLinkData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCLinkData.m; path = "Branch-SDK/Branch-SDK/BNCLinkData.m"; sourceTree = "<group>"; };
+		0A435F3A8940D8610F54A093B9514569 /* BranchLoadRewardsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLoadRewardsRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchLoadRewardsRequest.h"; sourceTree = "<group>"; };
+		0B267DA9BB23B4BC9EAF8C8E07A28D81 /* BNCPreferenceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCPreferenceHelper.m; path = "Branch-SDK/Branch-SDK/BNCPreferenceHelper.m"; sourceTree = "<group>"; };
+		0CAB69EB17CD99562FBBBC23912D7ECA /* BranchLoadActionsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchLoadActionsRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchLoadActionsRequest.m"; sourceTree = "<group>"; };
+		0CCD9C1728EC43F77C6F477D71C33F35 /* BNCError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCError.m; path = "Branch-SDK/Branch-SDK/BNCError.m"; sourceTree = "<group>"; };
+		157C13349B75F31D9491A725A9226068 /* Fabric+FABKits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fabric+FABKits.h"; path = "Branch-SDK/Fabric/Fabric+FABKits.h"; sourceTree = "<group>"; };
+		15C5A8FA6579CB80412D66FB13D91D90 /* BranchApplyPromoCodeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchApplyPromoCodeRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchApplyPromoCodeRequest.h"; sourceTree = "<group>"; };
+		16840EBCD74B8C18F532577213CBDA4B /* BNCServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BNCServerRequest.m"; sourceTree = "<group>"; };
+		1705002E56E88E1E91014F72F84832B0 /* BranchOpenRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchOpenRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchOpenRequest.m"; sourceTree = "<group>"; };
+		1A23B7BC9B868450980F4DD731E6818D /* Pods-Leila & Austin Wedding App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Leila & Austin Wedding App.debug.xcconfig"; sourceTree = "<group>"; };
+		1A2CB5F4F06A21F975940FDAB61A8E87 /* Branch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Branch.m; path = "Branch-SDK/Branch-SDK/Branch.m"; sourceTree = "<group>"; };
+		1A61612E13192E151FEB2B01A8E59B52 /* BNCServerInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerInterface.m; path = "Branch-SDK/Branch-SDK/BNCServerInterface.m"; sourceTree = "<group>"; };
+		1B65739A1E3BB72CD9D34F671AC780E1 /* BNCEncodingUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCEncodingUtils.m; path = "Branch-SDK/Branch-SDK/BNCEncodingUtils.m"; sourceTree = "<group>"; };
+		1DF06FA8AEE3DD36580BD2E0A96994CD /* BranchCSSearchableItemAttributeSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchCSSearchableItemAttributeSet.m; path = "Branch-SDK/Branch-SDK/BranchCSSearchableItemAttributeSet.m"; sourceTree = "<group>"; };
+		29F49142211F04E3A71E0143F88B90AB /* BNCPreferenceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCPreferenceHelper.h; path = "Branch-SDK/Branch-SDK/BNCPreferenceHelper.h"; sourceTree = "<group>"; };
+		2AFBA25326E2BA776FB62750A6F6AD04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2EF73C5AC38DBAD6356FA09365CEC2AD /* BNCStrongMatchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCStrongMatchHelper.m; path = "Branch-SDK/Branch-SDK/BNCStrongMatchHelper.m"; sourceTree = "<group>"; };
+		2FF6F0819CA5A31CC0E521114299FD3B /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = "Branch-SDK/Fabric/Fabric.h"; sourceTree = "<group>"; };
+		31FD6DC506112F7D0420AD0B71186A0D /* BranchConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchConstants.h; path = "Branch-SDK/Branch-SDK/BranchConstants.h"; sourceTree = "<group>"; };
+		320CFCA3236FA413743020B2FC6A29CE /* BNCError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCError.h; path = "Branch-SDK/Branch-SDK/BNCError.h"; sourceTree = "<group>"; };
+		37ECB6E508CBBA5070EBACBA237C4CF4 /* BNCServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerResponse.h; path = "Branch-SDK/Branch-SDK/BNCServerResponse.h"; sourceTree = "<group>"; };
+		3DAB48545F8C43BC5762C75551CC062C /* BranchRedeemRewardsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchRedeemRewardsRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchRedeemRewardsRequest.m"; sourceTree = "<group>"; };
+		3DEF5A5E9D450F27CBEE1D2497B5C3C3 /* BNCServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BNCServerRequest.h"; sourceTree = "<group>"; };
+		3E7F6BD1D85D5BEDFBC100C4615EC9D9 /* Pods-Leila & Austin Wedding App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Leila & Austin Wedding App-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FD5A1FCEE945459BCC831DEBD4EAEAB /* BranchUserCompletedActionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchUserCompletedActionRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchUserCompletedActionRequest.h"; sourceTree = "<group>"; };
+		3FE01DF3CB373C43A844C3232D02C747 /* Pods-Leila & Austin Wedding App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Leila & Austin Wedding App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40F4159057A785F7AB8CB6CF59DB46BB /* BNCContentDiscoveryManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCContentDiscoveryManager.m; path = "Branch-SDK/Branch-SDK/BNCContentDiscoveryManager.m"; sourceTree = "<group>"; };
+		4412172F863AD666AF54185E48601D6C /* BranchSetIdentityRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchSetIdentityRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchSetIdentityRequest.h"; sourceTree = "<group>"; };
+		452A722B50BC292E4DCF37F6E0E55F98 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = "Branch-SDK/Fabric/Answers.h"; sourceTree = "<group>"; };
+		45661AFCFBC1FED3A39B9D435E0F5445 /* BranchValidatePromoCodeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchValidatePromoCodeRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchValidatePromoCodeRequest.m"; sourceTree = "<group>"; };
+		45F76B546D0721726B0FDE5C77EB3EA4 /* BNCStrongMatchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCStrongMatchHelper.h; path = "Branch-SDK/Branch-SDK/BNCStrongMatchHelper.h"; sourceTree = "<group>"; };
+		4AD6BBADFC42AA5CF1870B754E4832B3 /* BranchSetIdentityRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchSetIdentityRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchSetIdentityRequest.m"; sourceTree = "<group>"; };
+		4E17857D1CB19FD2E610B0FAD6BE9E90 /* libBranch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBranch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EA9F8AA371F532B62621223B49B879 /* BranchGetPromoCodeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchGetPromoCodeRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchGetPromoCodeRequest.h"; sourceTree = "<group>"; };
+		5AB3824E1652B7B26C41457C8F71F503 /* Branch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Branch-dummy.m"; sourceTree = "<group>"; };
+		5AC12F4FC00563CCADF92DF64F1FCAB9 /* BranchOpenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchOpenRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchOpenRequest.h"; sourceTree = "<group>"; };
+		5C056E497FAA2994FF7C89BDC4C8CE23 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = "Branch-SDK/Fabric/ANSCompatibility.h"; sourceTree = "<group>"; };
+		5EA4D6B9FB0869B8E014EC9D2209500F /* Pods-Leila & Austin Wedding App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Leila & Austin Wedding App-dummy.m"; sourceTree = "<group>"; };
+		63152C905C2331735FEA3124915CF2AD /* BranchGetPromoCodeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchGetPromoCodeRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchGetPromoCodeRequest.m"; sourceTree = "<group>"; };
+		63E87422AF9641727FB997486DD2B59E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		63EF6EEACFFA2A744DCC635133F531D7 /* BranchActivityItemProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchActivityItemProvider.h; path = "Branch-SDK/Branch-SDK/BranchActivityItemProvider.h"; sourceTree = "<group>"; };
+		647B1BC601ADE612AF731B5035E3EA8C /* BranchUniversalObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchUniversalObject.m; path = "Branch-SDK/Branch-SDK/BranchUniversalObject.m"; sourceTree = "<group>"; };
+		6B3E13614F013D8E7CF5ADB2B8A34E01 /* BNCServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerResponse.m; path = "Branch-SDK/Branch-SDK/BNCServerResponse.m"; sourceTree = "<group>"; };
+		6BEADD921D50329295300F41E494B760 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		6D36A8F1A44AFBE54585A620FFA11792 /* BranchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchView.h; path = "Branch-SDK/Branch-SDK/BranchView.h"; sourceTree = "<group>"; };
+		6F04C26DA1F266B3A00EF22CDF398E93 /* BNCSystemObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCSystemObserver.h; path = "Branch-SDK/Branch-SDK/BNCSystemObserver.h"; sourceTree = "<group>"; };
+		72B6D223268901BACE88F5CCF85C7AAE /* BranchCloseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchCloseRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchCloseRequest.h"; sourceTree = "<group>"; };
+		7623C1778750D6FEF5C8913FB266DC4D /* BranchRegisterViewRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchRegisterViewRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchRegisterViewRequest.m"; sourceTree = "<group>"; };
+		762E1C26D90CF18BAB40BBB540E0D757 /* BranchInstallRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchInstallRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchInstallRequest.m"; sourceTree = "<group>"; };
+		777C93C294950FB0DC5EDFD43CCDFB30 /* BNCCallbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCCallbacks.h; path = "Branch-SDK/Branch-SDK/BNCCallbacks.h"; sourceTree = "<group>"; };
+		79F385C45F2A93C9276051305A1AADDB /* BranchSpotlightUrlRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchSpotlightUrlRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchSpotlightUrlRequest.h"; sourceTree = "<group>"; };
+		7D906D6E805EA9475F1BB4F270B739C3 /* BranchCreditHistoryRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchCreditHistoryRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchCreditHistoryRequest.m"; sourceTree = "<group>"; };
+		81FF22C124F382DDFEDE4B417DAC81FC /* BNCDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCDeviceInfo.h; path = "Branch-SDK/Branch-SDK/BNCDeviceInfo.h"; sourceTree = "<group>"; };
+		8269BDC377F9164D1D90EA8D5DC191F9 /* FABKitProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABKitProtocol.h; path = "Branch-SDK/Fabric/FABKitProtocol.h"; sourceTree = "<group>"; };
+		87D3FF675F6E089935B4D3312865CF90 /* BranchLinkProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchLinkProperties.m; path = "Branch-SDK/Branch-SDK/BranchLinkProperties.m"; sourceTree = "<group>"; };
+		88349D2E78AA590A8B2DA89C0F09454C /* BranchInstallRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchInstallRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchInstallRequest.h"; sourceTree = "<group>"; };
+		89070488842F74907816D4F4648CF843 /* BranchLogoutRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLogoutRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchLogoutRequest.h"; sourceTree = "<group>"; };
+		89197DCD01141B4EA5A29302CFF2A35E /* BranchApplyPromoCodeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchApplyPromoCodeRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchApplyPromoCodeRequest.m"; sourceTree = "<group>"; };
+		8B83EEF1C109A35F74925CE6C0937398 /* BNCServerRequestQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerRequestQueue.h; path = "Branch-SDK/Branch-SDK/BNCServerRequestQueue.h"; sourceTree = "<group>"; };
+		8D72690DB05175351C8E0A3A726E7895 /* BranchCloseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchCloseRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchCloseRequest.m"; sourceTree = "<group>"; };
+		8DBD66D1FC105DF37FF4C5364A5BD83A /* BranchCreditHistoryRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchCreditHistoryRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchCreditHistoryRequest.h"; sourceTree = "<group>"; };
+		8F006C1AD6CBCA151444BF1390AAAF33 /* BranchLogoutRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchLogoutRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchLogoutRequest.m"; sourceTree = "<group>"; };
+		8FB3870C1760BC84F22EF775FC78DB19 /* BranchRedeemRewardsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchRedeemRewardsRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchRedeemRewardsRequest.h"; sourceTree = "<group>"; };
+		928FEDB0F3CF74983A32421E0DBA74AF /* BNCConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCConfig.h; path = "Branch-SDK/Branch-SDK/BNCConfig.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AE461FB80A930D07672DCDC2322712 /* BranchShortUrlSyncRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchShortUrlSyncRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchShortUrlSyncRequest.h"; sourceTree = "<group>"; };
+		957DF3746B605C9E55F6B16C7270EB0F /* Branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Branch.h; path = "Branch-SDK/Branch-SDK/Branch.h"; sourceTree = "<group>"; };
+		9AC9E892EC07011F4425E13E4D2D837F /* BranchViewHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchViewHandler.h; path = "Branch-SDK/Branch-SDK/BranchViewHandler.h"; sourceTree = "<group>"; };
+		9C5233E17CA28F4B8AF05E06548A9321 /* Branch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Branch-prefix.pch"; sourceTree = "<group>"; };
+		9E4D60CDF3626C972BC7699D60F0BC42 /* BNCLinkData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCLinkData.h; path = "Branch-SDK/Branch-SDK/BNCLinkData.h"; sourceTree = "<group>"; };
+		A286172AEFA9CE56BC2D828C499C2427 /* BNCEncodingUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCEncodingUtils.h; path = "Branch-SDK/Branch-SDK/BNCEncodingUtils.h"; sourceTree = "<group>"; };
+		A53AD6C149445FBB9E64590322134EEB /* BNCServerRequestQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerRequestQueue.m; path = "Branch-SDK/Branch-SDK/BNCServerRequestQueue.m"; sourceTree = "<group>"; };
+		A61743894010DE2F98900956A4D42033 /* BranchActivityItemProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchActivityItemProvider.m; path = "Branch-SDK/Branch-SDK/BranchActivityItemProvider.m"; sourceTree = "<group>"; };
+		AC2A67693A4650CA38E9AD0A3AB7E629 /* BranchUniversalObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchUniversalObject.h; path = "Branch-SDK/Branch-SDK/BranchUniversalObject.h"; sourceTree = "<group>"; };
+		ACF20B7D5C27241BEE811240299E72E2 /* Pods-Leila & Austin Wedding App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Leila & Austin Wedding App-frameworks.sh"; sourceTree = "<group>"; };
+		ADD545667BA564C10D78A42A8FBC5B21 /* BranchShortUrlRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchShortUrlRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchShortUrlRequest.m"; sourceTree = "<group>"; };
+		B78D01FF204085A17F1C7AF827E4605E /* BNCFabricAnswers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCFabricAnswers.h; path = "Branch-SDK/Branch-SDK/BNCFabricAnswers.h"; sourceTree = "<group>"; };
+		B9A57E4C686AB0A21CCB5B4888520819 /* BranchLoadActionsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLoadActionsRequest.h; path = "Branch-SDK/Branch-SDK/Requests/BranchLoadActionsRequest.h"; sourceTree = "<group>"; };
+		BA779238CE7581EE8CC4801F7F9EEFC4 /* BNCSystemObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCSystemObserver.m; path = "Branch-SDK/Branch-SDK/BNCSystemObserver.m"; sourceTree = "<group>"; };
+		BB0BB050F8A51C58600CF01730A4F4F1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = "Branch-SDK/Fabric/FABAttributes.h"; sourceTree = "<group>"; };
+		BBD65A257F1F1CD45D26765219F3500A /* BranchUserCompletedActionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchUserCompletedActionRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchUserCompletedActionRequest.m"; sourceTree = "<group>"; };
+		BE1B434DCC269AAF46BD57144D0A2BFD /* BNCContentDiscoveryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCContentDiscoveryManager.h; path = "Branch-SDK/Branch-SDK/BNCContentDiscoveryManager.h"; sourceTree = "<group>"; };
+		BED1D29F561B544784E6FFD1A4EBC33C /* BranchSpotlightUrlRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchSpotlightUrlRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchSpotlightUrlRequest.m"; sourceTree = "<group>"; };
+		BFCC36E733D3A2A9E4AAF11448F4BCC5 /* BranchViewHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchViewHandler.m; path = "Branch-SDK/Branch-SDK/BranchViewHandler.m"; sourceTree = "<group>"; };
+		C1F7AA98958E157EDAD4027CC83BA48B /* BranchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchView.m; path = "Branch-SDK/Branch-SDK/BranchView.m"; sourceTree = "<group>"; };
+		C6D6D7808C809A1B205C14F66B5CB983 /* BNCServerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerInterface.h; path = "Branch-SDK/Branch-SDK/BNCServerInterface.h"; sourceTree = "<group>"; };
+		CBE74B6C280A34C0D85D320A16124112 /* PromoViewHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromoViewHandler.h; path = "Branch-SDK/Branch-SDK/Requests/PromoViewHandler.h"; sourceTree = "<group>"; };
+		D2877A620E3B18A09B7B6B825B56C2DB /* Branch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Branch.xcconfig; sourceTree = "<group>"; };
+		D96575C20ADE26E40A43EF0115C9B630 /* BranchConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchConstants.m; path = "Branch-SDK/Branch-SDK/BranchConstants.m"; sourceTree = "<group>"; };
+		DF55B6127950C0B90029B1DF8DE6ACBC /* BranchLoadRewardsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchLoadRewardsRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchLoadRewardsRequest.m"; sourceTree = "<group>"; };
+		DFFD74100FDBCCA40323817C17746E2D /* Pods-Leila & Austin Wedding App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Leila & Austin Wedding App-resources.sh"; sourceTree = "<group>"; };
+		E2BE96066613B4D05879E877DDCB2DF9 /* BranchCSSearchableItemAttributeSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchCSSearchableItemAttributeSet.h; path = "Branch-SDK/Branch-SDK/BranchCSSearchableItemAttributeSet.h"; sourceTree = "<group>"; };
+		E53737F714B103878F944646F80C378B /* BranchLinkProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLinkProperties.h; path = "Branch-SDK/Branch-SDK/BranchLinkProperties.h"; sourceTree = "<group>"; };
+		E71607A83FD8A0ECB6088A2563253915 /* BNCFabricAnswers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCFabricAnswers.m; path = "Branch-SDK/Branch-SDK/BNCFabricAnswers.m"; sourceTree = "<group>"; };
+		F49E4E127ACEDB3D7FFB99EB2F6672E5 /* Pods-Leila & Austin Wedding App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Leila & Austin Wedding App.release.xcconfig"; sourceTree = "<group>"; };
+		F67814E42236BAF609380B71BFD01198 /* BNCLinkCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCLinkCache.m; path = "Branch-SDK/Branch-SDK/BNCLinkCache.m"; sourceTree = "<group>"; };
+		F75463470F729ADADF0C3829B06FC825 /* BNCLinkCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCLinkCache.h; path = "Branch-SDK/Branch-SDK/BNCLinkCache.h"; sourceTree = "<group>"; };
+		FA3EC7EC6A22430E7FAD722A498DDECA /* libPods-Leila & Austin Wedding App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Leila & Austin Wedding App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB81B9AA426963928006B1CB396D245E /* BranchShortUrlSyncRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchShortUrlSyncRequest.m; path = "Branch-SDK/Branch-SDK/Requests/BranchShortUrlSyncRequest.m"; sourceTree = "<group>"; };
+		FC24D1FEA5170DCF5A20D2E4EEF316D9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855DFACCF8CDF4125FA909FB4C8558A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68BD0877FE7287FEC8D091B75A03CB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5044CBFEA49716244178C5B6A2CA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F2FE7D2890C773DF75C70EFFE2BE3 /* AdSupport.framework in Frameworks */,
+				50CB68812BFD17D06B933ED9C6899810 /* CoreTelephony.framework in Frameworks */,
+				8D9425115EE3BAA0903BB5F733ED1402 /* Foundation.framework in Frameworks */,
+				078735EBD2A00763E56DEC76F4AD3E36 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0799042FA25B0AB04EB209AB82F28D99 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5C056E497FAA2994FF7C89BDC4C8CE23 /* ANSCompatibility.h */,
+				452A722B50BC292E4DCF37F6E0E55F98 /* Answers.h */,
+				777C93C294950FB0DC5EDFD43CCDFB30 /* BNCCallbacks.h */,
+				928FEDB0F3CF74983A32421E0DBA74AF /* BNCConfig.h */,
+				BE1B434DCC269AAF46BD57144D0A2BFD /* BNCContentDiscoveryManager.h */,
+				40F4159057A785F7AB8CB6CF59DB46BB /* BNCContentDiscoveryManager.m */,
+				81FF22C124F382DDFEDE4B417DAC81FC /* BNCDeviceInfo.h */,
+				071A6DD600B88BDFC7693FA6B7B340EB /* BNCDeviceInfo.m */,
+				A286172AEFA9CE56BC2D828C499C2427 /* BNCEncodingUtils.h */,
+				1B65739A1E3BB72CD9D34F671AC780E1 /* BNCEncodingUtils.m */,
+				320CFCA3236FA413743020B2FC6A29CE /* BNCError.h */,
+				0CCD9C1728EC43F77C6F477D71C33F35 /* BNCError.m */,
+				B78D01FF204085A17F1C7AF827E4605E /* BNCFabricAnswers.h */,
+				E71607A83FD8A0ECB6088A2563253915 /* BNCFabricAnswers.m */,
+				F75463470F729ADADF0C3829B06FC825 /* BNCLinkCache.h */,
+				F67814E42236BAF609380B71BFD01198 /* BNCLinkCache.m */,
+				9E4D60CDF3626C972BC7699D60F0BC42 /* BNCLinkData.h */,
+				08E8AB7774B0AB650840FB85754A0B8B /* BNCLinkData.m */,
+				29F49142211F04E3A71E0143F88B90AB /* BNCPreferenceHelper.h */,
+				0B267DA9BB23B4BC9EAF8C8E07A28D81 /* BNCPreferenceHelper.m */,
+				C6D6D7808C809A1B205C14F66B5CB983 /* BNCServerInterface.h */,
+				1A61612E13192E151FEB2B01A8E59B52 /* BNCServerInterface.m */,
+				3DEF5A5E9D450F27CBEE1D2497B5C3C3 /* BNCServerRequest.h */,
+				16840EBCD74B8C18F532577213CBDA4B /* BNCServerRequest.m */,
+				8B83EEF1C109A35F74925CE6C0937398 /* BNCServerRequestQueue.h */,
+				A53AD6C149445FBB9E64590322134EEB /* BNCServerRequestQueue.m */,
+				37ECB6E508CBBA5070EBACBA237C4CF4 /* BNCServerResponse.h */,
+				6B3E13614F013D8E7CF5ADB2B8A34E01 /* BNCServerResponse.m */,
+				45F76B546D0721726B0FDE5C77EB3EA4 /* BNCStrongMatchHelper.h */,
+				2EF73C5AC38DBAD6356FA09365CEC2AD /* BNCStrongMatchHelper.m */,
+				6F04C26DA1F266B3A00EF22CDF398E93 /* BNCSystemObserver.h */,
+				BA779238CE7581EE8CC4801F7F9EEFC4 /* BNCSystemObserver.m */,
+				957DF3746B605C9E55F6B16C7270EB0F /* Branch.h */,
+				1A2CB5F4F06A21F975940FDAB61A8E87 /* Branch.m */,
+				63EF6EEACFFA2A744DCC635133F531D7 /* BranchActivityItemProvider.h */,
+				A61743894010DE2F98900956A4D42033 /* BranchActivityItemProvider.m */,
+				15C5A8FA6579CB80412D66FB13D91D90 /* BranchApplyPromoCodeRequest.h */,
+				89197DCD01141B4EA5A29302CFF2A35E /* BranchApplyPromoCodeRequest.m */,
+				72B6D223268901BACE88F5CCF85C7AAE /* BranchCloseRequest.h */,
+				8D72690DB05175351C8E0A3A726E7895 /* BranchCloseRequest.m */,
+				31FD6DC506112F7D0420AD0B71186A0D /* BranchConstants.h */,
+				D96575C20ADE26E40A43EF0115C9B630 /* BranchConstants.m */,
+				8DBD66D1FC105DF37FF4C5364A5BD83A /* BranchCreditHistoryRequest.h */,
+				7D906D6E805EA9475F1BB4F270B739C3 /* BranchCreditHistoryRequest.m */,
+				E2BE96066613B4D05879E877DDCB2DF9 /* BranchCSSearchableItemAttributeSet.h */,
+				1DF06FA8AEE3DD36580BD2E0A96994CD /* BranchCSSearchableItemAttributeSet.m */,
+				033CFA2D90FBE59B11C698A12C4F6EED /* BranchDeepLinkingController.h */,
+				52EA9F8AA371F532B62621223B49B879 /* BranchGetPromoCodeRequest.h */,
+				63152C905C2331735FEA3124915CF2AD /* BranchGetPromoCodeRequest.m */,
+				88349D2E78AA590A8B2DA89C0F09454C /* BranchInstallRequest.h */,
+				762E1C26D90CF18BAB40BBB540E0D757 /* BranchInstallRequest.m */,
+				E53737F714B103878F944646F80C378B /* BranchLinkProperties.h */,
+				87D3FF675F6E089935B4D3312865CF90 /* BranchLinkProperties.m */,
+				B9A57E4C686AB0A21CCB5B4888520819 /* BranchLoadActionsRequest.h */,
+				0CAB69EB17CD99562FBBBC23912D7ECA /* BranchLoadActionsRequest.m */,
+				0A435F3A8940D8610F54A093B9514569 /* BranchLoadRewardsRequest.h */,
+				DF55B6127950C0B90029B1DF8DE6ACBC /* BranchLoadRewardsRequest.m */,
+				89070488842F74907816D4F4648CF843 /* BranchLogoutRequest.h */,
+				8F006C1AD6CBCA151444BF1390AAAF33 /* BranchLogoutRequest.m */,
+				5AC12F4FC00563CCADF92DF64F1FCAB9 /* BranchOpenRequest.h */,
+				1705002E56E88E1E91014F72F84832B0 /* BranchOpenRequest.m */,
+				8FB3870C1760BC84F22EF775FC78DB19 /* BranchRedeemRewardsRequest.h */,
+				3DAB48545F8C43BC5762C75551CC062C /* BranchRedeemRewardsRequest.m */,
+				0706B914D8B4F4FBF20FA80299A710E7 /* BranchRegisterViewRequest.h */,
+				7623C1778750D6FEF5C8913FB266DC4D /* BranchRegisterViewRequest.m */,
+				4412172F863AD666AF54185E48601D6C /* BranchSetIdentityRequest.h */,
+				4AD6BBADFC42AA5CF1870B754E4832B3 /* BranchSetIdentityRequest.m */,
+				06F8612465F650529F6D4057582A66FE /* BranchShortUrlRequest.h */,
+				ADD545667BA564C10D78A42A8FBC5B21 /* BranchShortUrlRequest.m */,
+				94AE461FB80A930D07672DCDC2322712 /* BranchShortUrlSyncRequest.h */,
+				FB81B9AA426963928006B1CB396D245E /* BranchShortUrlSyncRequest.m */,
+				79F385C45F2A93C9276051305A1AADDB /* BranchSpotlightUrlRequest.h */,
+				BED1D29F561B544784E6FFD1A4EBC33C /* BranchSpotlightUrlRequest.m */,
+				AC2A67693A4650CA38E9AD0A3AB7E629 /* BranchUniversalObject.h */,
+				647B1BC601ADE612AF731B5035E3EA8C /* BranchUniversalObject.m */,
+				3FD5A1FCEE945459BCC831DEBD4EAEAB /* BranchUserCompletedActionRequest.h */,
+				BBD65A257F1F1CD45D26765219F3500A /* BranchUserCompletedActionRequest.m */,
+				07D2E6532CADDE213620B16A3BF89660 /* BranchValidatePromoCodeRequest.h */,
+				45661AFCFBC1FED3A39B9D435E0F5445 /* BranchValidatePromoCodeRequest.m */,
+				6D36A8F1A44AFBE54585A620FFA11792 /* BranchView.h */,
+				C1F7AA98958E157EDAD4027CC83BA48B /* BranchView.m */,
+				9AC9E892EC07011F4425E13E4D2D837F /* BranchViewHandler.h */,
+				BFCC36E733D3A2A9E4AAF11448F4BCC5 /* BranchViewHandler.m */,
+				BB0BB050F8A51C58600CF01730A4F4F1 /* FABAttributes.h */,
+				8269BDC377F9164D1D90EA8D5DC191F9 /* FABKitProtocol.h */,
+				2FF6F0819CA5A31CC0E521114299FD3B /* Fabric.h */,
+				157C13349B75F31D9491A725A9226068 /* Fabric+FABKits.h */,
+				CBE74B6C280A34C0D85D320A16124112 /* PromoViewHandler.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1236B39A46283211D162DAB63A4C1C09 /* Branch */ = {
+			isa = PBXGroup;
+			children = (
+				0799042FA25B0AB04EB209AB82F28D99 /* Core */,
+				C6F5660C41FD2AA290AA253FEF28BCC6 /* Support Files */,
+				E97CC49F4A23F94D7FB2917350B6F951 /* without-IDFA */,
+			);
+			path = Branch;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD22801968AB7A9F01209783C9E2EFC6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1510D1F805FDD8734B25A50C8A0F48BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1236B39A46283211D162DAB63A4C1C09 /* Branch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		709310AC3DA7626AE4214694B0CDCDDB /* Pods-Leila & Austin Wedding App */ = {
+			isa = PBXGroup;
+			children = (
+				3FE01DF3CB373C43A844C3232D02C747 /* Pods-Leila & Austin Wedding App-acknowledgements.markdown */,
+				3E7F6BD1D85D5BEDFBC100C4615EC9D9 /* Pods-Leila & Austin Wedding App-acknowledgements.plist */,
+				5EA4D6B9FB0869B8E014EC9D2209500F /* Pods-Leila & Austin Wedding App-dummy.m */,
+				ACF20B7D5C27241BEE811240299E72E2 /* Pods-Leila & Austin Wedding App-frameworks.sh */,
+				DFFD74100FDBCCA40323817C17746E2D /* Pods-Leila & Austin Wedding App-resources.sh */,
+				1A23B7BC9B868450980F4DD731E6818D /* Pods-Leila & Austin Wedding App.debug.xcconfig */,
+				F49E4E127ACEDB3D7FFB99EB2F6672E5 /* Pods-Leila & Austin Wedding App.release.xcconfig */,
+			);
+			name = "Pods-Leila & Austin Wedding App";
+			path = "Target Support Files/Pods-Leila & Austin Wedding App";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				1510D1F805FDD8734B25A50C8A0F48BE /* Pods */,
+				D5C5226889E94F325C810ECCC0913160 /* Products */,
+				C2DA746D43BC26A8F45D41B1E2722EA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD22801968AB7A9F01209783C9E2EFC6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC24D1FEA5170DCF5A20D2E4EEF316D9 /* AdSupport.framework */,
+				6BEADD921D50329295300F41E494B760 /* CoreTelephony.framework */,
+				2AFBA25326E2BA776FB62750A6F6AD04 /* Foundation.framework */,
+				63E87422AF9641727FB997486DD2B59E /* MobileCoreServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2DA746D43BC26A8F45D41B1E2722EA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				709310AC3DA7626AE4214694B0CDCDDB /* Pods-Leila & Austin Wedding App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C6F5660C41FD2AA290AA253FEF28BCC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2877A620E3B18A09B7B6B825B56C2DB /* Branch.xcconfig */,
+				5AB3824E1652B7B26C41457C8F71F503 /* Branch-dummy.m */,
+				9C5233E17CA28F4B8AF05E06548A9321 /* Branch-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Branch";
+			sourceTree = "<group>";
+		};
+		D5C5226889E94F325C810ECCC0913160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E17857D1CB19FD2E610B0FAD6BE9E90 /* libBranch.a */,
+				FA3EC7EC6A22430E7FAD722A498DDECA /* libPods-Leila & Austin Wedding App.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97CC49F4A23F94D7FB2917350B6F951 /* without-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "without-IDFA";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11D3FABC2660493D9DB59CFFDF7EFD7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9768A9576C1B254AC0EE0D023D1293D6 /* ANSCompatibility.h in Headers */,
+				D7D0C1D9EA7EF22342F83521C9525F7B /* Answers.h in Headers */,
+				92F273028A9679348077DA1BE1E99480 /* BNCCallbacks.h in Headers */,
+				23A21F5A6BB843B5EA073CCBD20EEB47 /* BNCConfig.h in Headers */,
+				6BCFCFA564F37DC87F2868F7D40E171F /* BNCContentDiscoveryManager.h in Headers */,
+				9456D1679E00301265E0E777C2981F92 /* BNCDeviceInfo.h in Headers */,
+				BFE5E62D272AFEAFCB95D9FBA5BEF88F /* BNCEncodingUtils.h in Headers */,
+				C13060D341DC2859BEE1AC9C6AE9B4DA /* BNCError.h in Headers */,
+				882C402807B542701DE40966C1DF1C79 /* BNCFabricAnswers.h in Headers */,
+				858FC5090E95FBDFD5838FFAA8F68E3A /* BNCLinkCache.h in Headers */,
+				7571B06EEDB0F9A9D9364020B65E93CF /* BNCLinkData.h in Headers */,
+				D06CA7A2BA2109ACDF67E890FA0F4BE2 /* BNCPreferenceHelper.h in Headers */,
+				4FF6518325AEC006AB270CD1ECA039CE /* BNCServerInterface.h in Headers */,
+				3C0162D03FE98CD87B5858DA55E846A5 /* BNCServerRequest.h in Headers */,
+				CC3920D3E3CACA850090902BFAA93B28 /* BNCServerRequestQueue.h in Headers */,
+				AF958E83AD7C171A6B4107C09035E448 /* BNCServerResponse.h in Headers */,
+				68131459124456EF50521A0410DBE2F5 /* BNCStrongMatchHelper.h in Headers */,
+				86E9F906D9EB7A4FEDD0557D329677A8 /* BNCSystemObserver.h in Headers */,
+				DCB2D7C44BC2F23BB338D1D8D052D00B /* Branch.h in Headers */,
+				C724B8C45E13A3D46CD87F0644B90A06 /* BranchActivityItemProvider.h in Headers */,
+				D6FFDF6846F1C78C2A5B2EE99B504BCA /* BranchApplyPromoCodeRequest.h in Headers */,
+				679CB62D294646D07EF9E0E7BE72D7A6 /* BranchCloseRequest.h in Headers */,
+				4010E18C9A5836916A5031E7672AF1DA /* BranchConstants.h in Headers */,
+				60F64E05C1CB139468112319E4E76230 /* BranchCreditHistoryRequest.h in Headers */,
+				3C5C5067C2DA29E361EAB7CE5753B94D /* BranchCSSearchableItemAttributeSet.h in Headers */,
+				5EC8086798E0011C38AFBA0ABC310A76 /* BranchDeepLinkingController.h in Headers */,
+				460F91374C54240CF97FEC320DFFCA86 /* BranchGetPromoCodeRequest.h in Headers */,
+				CD4E03F54F8E5766C1035C27F9EADEE2 /* BranchInstallRequest.h in Headers */,
+				E491603C333B2B2BAEB5F94F079DA84B /* BranchLinkProperties.h in Headers */,
+				F09CBA9A760DF8DC84677CC6914E9A1E /* BranchLoadActionsRequest.h in Headers */,
+				25184A02BFFB9CC8CF562EAF08B56C35 /* BranchLoadRewardsRequest.h in Headers */,
+				6AF3B4B89102377ECEE2E9A84014B48C /* BranchLogoutRequest.h in Headers */,
+				3F94D5D25D6445EADE3E490FEDA6CCE8 /* BranchOpenRequest.h in Headers */,
+				6319FED627C861840724545AF27192C8 /* BranchRedeemRewardsRequest.h in Headers */,
+				A2F4613DA37EB41797C7A95D528DDD43 /* BranchRegisterViewRequest.h in Headers */,
+				A89F5EA35A1B9CBBCAEED1C9BAE84C14 /* BranchSetIdentityRequest.h in Headers */,
+				EE5AA6F23D0672CA76944C9E53B2A9B8 /* BranchShortUrlRequest.h in Headers */,
+				8E5B77C1C191D5208FFBB8644C5375B2 /* BranchShortUrlSyncRequest.h in Headers */,
+				BC2AE4A802CB1FD27DF8F625436A7DE7 /* BranchSpotlightUrlRequest.h in Headers */,
+				B71372D3DDF02ED4919FE27CACAB6B5E /* BranchUniversalObject.h in Headers */,
+				30C69E37F3B3F7865EE74EF72D11A45B /* BranchUserCompletedActionRequest.h in Headers */,
+				628F6B3CFD633E9B26F7E91AA7C7A83F /* BranchValidatePromoCodeRequest.h in Headers */,
+				821ECDCFDFB9E1DD5344B42ACDD79893 /* BranchView.h in Headers */,
+				CF72792872A9AB9B6E31274E6033C979 /* BranchViewHandler.h in Headers */,
+				897E0AAEDCCD50E36372EB1397A0DFC5 /* FABAttributes.h in Headers */,
+				D06D40801F33973B3B494C8B4657D22E /* FABKitProtocol.h in Headers */,
+				EC071F8D293ABA314E336066231C7761 /* Fabric+FABKits.h in Headers */,
+				0E8D55619C78CF8AA2F0F9ED3ED10539 /* Fabric.h in Headers */,
+				C6050751A40E4C145C3BC314FB3567F4 /* PromoViewHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C001D0060DA549B2D00990FA3987E51 /* Pods-Leila & Austin Wedding App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB74963D4BD12A8DE0CD97FB78AFFFF /* Build configuration list for PBXNativeTarget "Pods-Leila & Austin Wedding App" */;
+			buildPhases = (
+				9D413F478D73714929EAA4CDF50A7EC3 /* Sources */,
+				855DFACCF8CDF4125FA909FB4C8558A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6043668734F3F1E0F343017B40156EEB /* PBXTargetDependency */,
+			);
+			name = "Pods-Leila & Austin Wedding App";
+			productName = "Pods-Leila & Austin Wedding App";
+			productReference = FA3EC7EC6A22430E7FAD722A498DDECA /* libPods-Leila & Austin Wedding App.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBA48C061B1BD263B0FEFBF4549DC4C4 /* Branch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6666ED23278A70963B8B5CC6FFF502 /* Build configuration list for PBXNativeTarget "Branch" */;
+			buildPhases = (
+				42454DA8538ACC33493BDA45FB93B2E6 /* Sources */,
+				FC5044CBFEA49716244178C5B6A2CA38 /* Frameworks */,
+				11D3FABC2660493D9DB59CFFDF7EFD7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Branch;
+			productName = Branch;
+			productReference = 4E17857D1CB19FD2E610B0FAD6BE9E90 /* libBranch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D5C5226889E94F325C810ECCC0913160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA48C061B1BD263B0FEFBF4549DC4C4 /* Branch */,
+				4C001D0060DA549B2D00990FA3987E51 /* Pods-Leila & Austin Wedding App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42454DA8538ACC33493BDA45FB93B2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB121EDF8FCEF931759E4DED99671A0 /* BNCContentDiscoveryManager.m in Sources */,
+				7E6B856E3466D540E71DA9DA94E33798 /* BNCDeviceInfo.m in Sources */,
+				B0078F15AFB6C38B8EE18AD6EB309181 /* BNCEncodingUtils.m in Sources */,
+				758069FFAB05A50889549A5D6E8443AE /* BNCError.m in Sources */,
+				90BBDF8DB9857246C5FCBD4E2EF663CD /* BNCFabricAnswers.m in Sources */,
+				548AFA40C7A8C12156A132B5B4B51F3C /* BNCLinkCache.m in Sources */,
+				3964BE57146DE6CB37CA4C3DF1228F39 /* BNCLinkData.m in Sources */,
+				097D58D39EEED0DBE15DCB0AFAF54C11 /* BNCPreferenceHelper.m in Sources */,
+				DD800EC3282612656B4A176A0BA42FAF /* BNCServerInterface.m in Sources */,
+				B05BF4AFEAFDED31C5AA3A2513620DD5 /* BNCServerRequest.m in Sources */,
+				6038D05144C80D74393E07D3FD97343B /* BNCServerRequestQueue.m in Sources */,
+				5E13CDCEB4D403A21A49D1656D9D3450 /* BNCServerResponse.m in Sources */,
+				0928A61F3EC9190F8CB0F9BE81BEFDE6 /* BNCStrongMatchHelper.m in Sources */,
+				9877DACE4928DB8E90A5BBCA395E5E72 /* BNCSystemObserver.m in Sources */,
+				3FA2F7872DA6976FE15DA18831ACE821 /* Branch-dummy.m in Sources */,
+				B7E7DC031F4DE7B794845BD11A8FCEF8 /* Branch.m in Sources */,
+				381C03018C6F77DD2215FDD22A132584 /* BranchActivityItemProvider.m in Sources */,
+				30C5AD4686D98D430491AAC4C2A7A365 /* BranchApplyPromoCodeRequest.m in Sources */,
+				DE9B28219588C1FE79F2CE018E8CA5BE /* BranchCloseRequest.m in Sources */,
+				3069D9161C816692D5CF0381F3605EB4 /* BranchConstants.m in Sources */,
+				9065663232F97649D226B4516B58850D /* BranchCreditHistoryRequest.m in Sources */,
+				99234C051D44DA213061606A5B6AB8EC /* BranchCSSearchableItemAttributeSet.m in Sources */,
+				87FD719265822737445C1DEB53218CE3 /* BranchGetPromoCodeRequest.m in Sources */,
+				DBC2BC710ADCEFF65CF780BFC3835905 /* BranchInstallRequest.m in Sources */,
+				2FD72B32FF69507CC19FF996552C2DBF /* BranchLinkProperties.m in Sources */,
+				FA03F071FB0A4ECB8E7AAC4439DE16A9 /* BranchLoadActionsRequest.m in Sources */,
+				BCAA1151F8857CF61A62CC54B2269E2E /* BranchLoadRewardsRequest.m in Sources */,
+				E2BE7576E452A93DDEE151A3FF6E7AF2 /* BranchLogoutRequest.m in Sources */,
+				6126041320E62E260A1B68A52893D187 /* BranchOpenRequest.m in Sources */,
+				52FBE65001259F9B759C25BFB941CC42 /* BranchRedeemRewardsRequest.m in Sources */,
+				C6C5BE5A0841DDB5A4D1CCB0D1A73FEF /* BranchRegisterViewRequest.m in Sources */,
+				F531515D9779F654EE6082ED05709666 /* BranchSetIdentityRequest.m in Sources */,
+				663B5B88917701FAB90AEB869E2F2660 /* BranchShortUrlRequest.m in Sources */,
+				7FFA4C7DA8C4C34DAD5A7DE1BBE97829 /* BranchShortUrlSyncRequest.m in Sources */,
+				6B6A6E048DC33CA48185615751873C92 /* BranchSpotlightUrlRequest.m in Sources */,
+				F3B3A53ACA013E0DD9D5F9E1C8E64579 /* BranchUniversalObject.m in Sources */,
+				4914F5830BA1E6BD27C716F9C79B5CED /* BranchUserCompletedActionRequest.m in Sources */,
+				92B134B37FF6B50D43F80C2CDDE1EFDC /* BranchValidatePromoCodeRequest.m in Sources */,
+				41722E13D8BFDDEAB6E8C8AD9877DC6B /* BranchView.m in Sources */,
+				D087F5C3F4BA0A2F9A980D4AFD1063C8 /* BranchViewHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D413F478D73714929EAA4CDF50A7EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35637CB967198DAFAF562AF826C8DFF /* Pods-Leila & Austin Wedding App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6043668734F3F1E0F343017B40156EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Branch;
+			target = FBA48C061B1BD263B0FEFBF4549DC4C4 /* Branch */;
+			targetProxy = 0435B3ABADB7127AD1186F09DDE43BA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1490DC9B316F9A2A3CA4665A7AEB9FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2877A620E3B18A09B7B6B825B56C2DB /* Branch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Branch/Branch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		643EB5D1EA89ADB59A83CC86DAA13F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2877A620E3B18A09B7B6B825B56C2DB /* Branch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Branch/Branch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84FD87D359382A37B07149A12641B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B4F61053BECCC499B3E64ED18C8A036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A23B7BC9B868450980F4DD731E6818D /* Pods-Leila & Austin Wedding App.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F17F52CE8083A6A6B4822C7CF92FD50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49E4E127ACEDB3D7FFB99EB2F6672E5 /* Pods-Leila & Austin Wedding App.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F594C655D48020EC34B00AA63E001773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD87D359382A37B07149A12641B965 /* Debug */,
+				F594C655D48020EC34B00AA63E001773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB74963D4BD12A8DE0CD97FB78AFFFF /* Build configuration list for PBXNativeTarget "Pods-Leila & Austin Wedding App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4F61053BECCC499B3E64ED18C8A036 /* Debug */,
+				F17F52CE8083A6A6B4822C7CF92FD50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6666ED23278A70963B8B5CC6FFF502 /* Build configuration list for PBXNativeTarget "Branch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1490DC9B316F9A2A3CA4665A7AEB9FC0 /* Debug */,
+				643EB5D1EA89ADB59A83CC86DAA13F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

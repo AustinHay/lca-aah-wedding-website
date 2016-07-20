@@ -1,0 +1,3 @@
+target 'Leila & Austin Wedding App' do
+  pod 'Branch'
+end

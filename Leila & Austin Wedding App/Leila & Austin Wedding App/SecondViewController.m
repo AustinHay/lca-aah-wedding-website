@@ -7,6 +7,8 @@
 //
 
 #import "SecondViewController.h"
+#import "BranchUniversalObject.h"
+#import "BranchLinkProperties.h"
 
 @interface SecondViewController ()
 
@@ -24,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
 @end
+
+

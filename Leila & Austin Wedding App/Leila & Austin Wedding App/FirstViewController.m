@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import <SafariServices/SafariServices.h>
+#import "Branch.h"
 
 @interface FirstViewController () <SFSafariViewControllerDelegate>
 
@@ -19,10 +20,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-- (IBAction)openURL:(UIButton *)sender {
+- (IBAction)openWebsite:(UIButton *)sender {
     SFSafariViewController *safariVC = [[SFSafariViewController alloc]initWithURL:[NSURL URLWithString:@"http://www.leilawillyoumarry.me"] entersReaderIfAvailable:YES];
     safariVC.delegate = self;
     [self presentViewController:safariVC animated:NO completion:nil];
+    [[Branch getInstance] userCompletedAction:@"openWebsite"];
 }
 
 #pragma mark - SFSafariViewController delegate methods
