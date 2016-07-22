@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 - (IBAction)openWebsite:(UIButton *)sender {
     SFSafariViewController *safariVC = [[SFSafariViewController alloc]initWithURL:[NSURL URLWithString:@"http://www.leilawillyoumarry.me"] entersReaderIfAvailable:YES];

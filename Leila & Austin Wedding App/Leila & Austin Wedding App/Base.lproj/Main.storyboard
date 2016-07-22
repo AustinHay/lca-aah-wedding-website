@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Wedding Details-->
@@ -17,12 +19,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuE-tG-GH2">
-                                <rect key="frame" x="234" y="475" width="133" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuE-tG-GH2">
+                                <rect key="frame" x="0.0" y="485" width="600" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.45837601516582294" blue="0.62032477890711446" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Tnb-LI-vyp"/>
+                                    <constraint firstAttribute="height" constant="42" id="Tnb-LI-vyp"/>
+                                    <constraint firstAttribute="width" constant="600" id="r9L-9n-QGE"/>
                                 </constraints>
-                                <state key="normal" title="Join us at the Lake!"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Join us at the Lake!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="openWebsite:" destination="9pv-A4-QxB" eventType="touchUpInside" id="4Z5-pn-qWy"/>
                                 </connections>
@@ -37,19 +45,40 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg-img-view-1.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="mTS-aF-qN6">
-                                <rect key="frame" x="110" y="109" width="380" height="224"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bg-img-view-1.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="mTS-aF-qN6">
+                                <rect key="frame" x="131" y="91" width="338" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mTS-aF-qN6" secondAttribute="height" multiplier="95:56" constant="-19.196428571428555" id="uIR-FR-EhF"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="September 4th, 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCV-Jx-VAV">
+                                <rect key="frame" x="219" y="353" width="163" height="21"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lake Monticello, Virginia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k29-Ug-73K">
+                                <rect key="frame" x="209" y="391" width="183" height="21"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="mTS-aF-qN6" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-20" id="6VJ-NQ-sJd"/>
                             <constraint firstItem="HuE-tG-GH2" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="7xX-yA-cle"/>
                             <constraint firstItem="HuE-tG-GH2" firstAttribute="centerX" secondItem="gNU-qx-1Fs" secondAttribute="centerX" id="8fm-ek-12H"/>
+                            <constraint firstItem="k29-Ug-73K" firstAttribute="centerX" secondItem="ZCV-Jx-VAV" secondAttribute="centerX" id="9fX-aZ-JDc"/>
+                            <constraint firstItem="HuE-tG-GH2" firstAttribute="top" secondItem="k29-Ug-73K" secondAttribute="bottom" constant="73" id="ZKX-TR-5Kl"/>
                             <constraint firstItem="gNU-qx-1Fs" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="25" id="Zx2-Qe-Asz"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="HuE-tG-GH2" secondAttribute="bottom" constant="46" id="tFX-nO-Grc"/>
+                            <constraint firstItem="k29-Ug-73K" firstAttribute="centerX" secondItem="HuE-tG-GH2" secondAttribute="centerX" id="l0C-eL-CCy"/>
+                            <constraint firstItem="k29-Ug-73K" firstAttribute="top" secondItem="ZCV-Jx-VAV" secondAttribute="bottom" constant="17" id="lh0-ET-Kqy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mTS-aF-qN6" secondAttribute="trailing" constant="-20" id="rIK-kD-HTt"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="HuE-tG-GH2" secondAttribute="bottom" constant="30" id="tFX-nO-Grc"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Wedding Details" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Wedding Details" image="wedding-details-icon" selectedImage="wedding-details-icon" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,9 +95,19 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drf-3G-df6">
+                                <rect key="frame" x="20" y="49" width="101" height="30"/>
+                                <state key="normal" title="Share the app!"/>
+                                <connections>
+                                    <action selector="ShareApp:" destination="8rJ-Kc-sve" eventType="touchDragInside" id="Tdr-rV-c1b"/>
+                                    <action selector="ShareLink:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="zkK-DT-CDV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Resources" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="resources-icon" selectedImage="resources-icon" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -96,7 +135,7 @@
     </scenes>
     <resources>
         <image name="bg-img-view-1.JPG" width="1086" height="724"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="resources-icon" width="25" height="25"/>
+        <image name="wedding-details-icon" width="25" height="25"/>
     </resources>
 </document>
