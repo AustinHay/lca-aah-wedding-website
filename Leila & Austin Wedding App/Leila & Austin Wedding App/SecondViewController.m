@@ -37,20 +37,13 @@
     [linkProperties addControlParam:@"$desktop_url" withValue:@"http://www.leilawillyoumarry.me"];
     
     [self.branchUniversalObject showShareSheetWithLinkProperties:linkProperties
-                                                    andShareText:@"Excited to see you at our wedding! Download the app to stay up to date :)"
+                                        andShareText:@"Excited to see you at our wedding! Download the app to stay up to date :)"
                                          fromViewController:self
                                                 andCallback:^{
                                                     NSLog(@"finished presenting");
                                                 }];
-    
-    [self.branchUniversalObject getShortUrlWithLinkProperties:linkProperties andCallback:^(NSString *url, NSError *error) {
-        if (!error && url) {
-            NSLog(@"success getting url! %@", url);
-        }
-    }];
-    
 
-
+    
 }
 
 - (void)didReceiveMemoryWarning {

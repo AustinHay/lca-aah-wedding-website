@@ -50,6 +50,7 @@
 		0087B8A41D3206D2006BA6FE /* Leila___Austin_Wedding_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Leila___Austin_Wedding_AppTests.m"; sourceTree = "<group>"; };
 		0087B8A61D3206D2006BA6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0087B8AF1D321213006BA6FE /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		00CE0C761D42C27A0021FF40 /* Leila & Austin Wedding App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Leila & Austin Wedding App.entitlements"; sourceTree = "<group>"; };
 		6D63E1D18A10483D64271060 /* Pods-Leila & Austin Wedding App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leila & Austin Wedding App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leila & Austin Wedding App/Pods-Leila & Austin Wedding App.release.xcconfig"; sourceTree = "<group>"; };
 		9CC45773137018769B533645 /* Pods-Leila & Austin Wedding App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leila & Austin Wedding App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leila & Austin Wedding App/Pods-Leila & Austin Wedding App.debug.xcconfig"; sourceTree = "<group>"; };
 		E3CA5E97B74A1FF5F3EA3637 /* libPods-Leila & Austin Wedding App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Leila & Austin Wedding App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +100,7 @@
 		0087B8861D3206D2006BA6FE /* Leila & Austin Wedding App */ = {
 			isa = PBXGroup;
 			children = (
+				00CE0C761D42C27A0021FF40 /* Leila & Austin Wedding App.entitlements */,
 				0087B8B31D3217A0006BA6FE /* Assets */,
 				0087B88A1D3206D2006BA6FE /* AppDelegate.h */,
 				0087B88B1D3206D2006BA6FE /* AppDelegate.m */,
@@ -211,6 +213,11 @@
 					0087B8831D3206D2006BA6FE = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = D3PSH3P3W7;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					0087B89F1D3206D2006BA6FE = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -444,13 +451,15 @@
 			baseConfigurationReference = 9CC45773137018769B533645 /* Pods-Leila & Austin Wedding App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Leila & Austin Wedding App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leilawillyoumarry.leilaandaustinweddingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b7e49b81-d4bb-4fab-bf80-4669c2382995";
 			};
 			name = Debug;
 		};
@@ -459,13 +468,15 @@
 			baseConfigurationReference = 6D63E1D18A10483D64271060 /* Pods-Leila & Austin Wedding App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Leila & Austin Wedding App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leilawillyoumarry.leilaandaustinweddingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b7e49b81-d4bb-4fab-bf80-4669c2382995";
 			};
 			name = Release;
 		};

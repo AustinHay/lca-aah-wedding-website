@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuE-tG-GH2">
-                                <rect key="frame" x="0.0" y="485" width="600" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuE-tG-GH2">
+                                <rect key="frame" x="0.0" y="479" width="600" height="42"/>
                                 <color key="backgroundColor" red="1" green="0.45837601516582294" blue="0.62032477890711446" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Tnb-LI-vyp"/>
@@ -51,14 +51,14 @@
                                     <constraint firstAttribute="width" secondItem="mTS-aF-qN6" secondAttribute="height" multiplier="95:56" constant="-19.196428571428555" id="uIR-FR-EhF"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="September 4th, 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCV-Jx-VAV">
-                                <rect key="frame" x="219" y="353" width="163" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="September 4th, 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCV-Jx-VAV">
+                                <rect key="frame" x="224" y="347" width="154" height="21"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lake Monticello, Virginia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k29-Ug-73K">
-                                <rect key="frame" x="209" y="391" width="183" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lake Monticello, Virginia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k29-Ug-73K">
+                                <rect key="frame" x="209" y="385" width="183" height="21"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -100,8 +100,7 @@
                                 <rect key="frame" x="20" y="49" width="101" height="30"/>
                                 <state key="normal" title="Share the app!"/>
                                 <connections>
-                                    <action selector="ShareApp:" destination="8rJ-Kc-sve" eventType="touchDragInside" id="Tdr-rV-c1b"/>
-                                    <action selector="ShareLink:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="zkK-DT-CDV"/>
+                                    <action selector="ShareApp:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="VS3-fX-II3"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -27,7 +27,7 @@
 			<string>com.leilawillyoumarry.leilaandaustinweddingapp</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>leilawillyoumarryme://</string>
+				<string>leilawillyoumarryme</string>
 			</array>
 		</dict>
 	</array>
