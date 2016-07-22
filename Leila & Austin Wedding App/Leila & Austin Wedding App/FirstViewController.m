@@ -27,7 +27,6 @@
     [[Branch getInstance] userCompletedAction:@"openWebsite"];
 }
 
-#pragma mark - SFSafariViewController delegate methods
 - (void)safariViewController:(SFSafariViewController *)controller didCompleteInitialLoad:(BOOL)didLoadSuccessfully {
     // Load finished
 }
